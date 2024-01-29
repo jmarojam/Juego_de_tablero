@@ -1,0 +1,75 @@
+body{
+    background-image:url(/img/backgroung.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    text-align: center;
+   
+
+}
+
+#tabla_juego {
+    text-align: -webkit-center;
+    border-collapse: collapse;
+}
+
+#tabla_juego td {
+    border: 0.5px solid #000; 
+    padding: 0.5px; 
+    background-color: #000;
+    
+}
+
+/* Estilo general de la tabla de puntuaciones */
+.tabla-puntuaciones {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #d4d6d5;
+  }
+  
+  /* Estilo de las cabeceras de la tabla de puntuaciones */
+  .tabla-puntuaciones th {
+
+    padding: 12px 15px;
+  }
+  
+  /* Estilo de las celdas de la tabla de puntuaciones */
+  .tabla-puntuaciones td {
+    border-bottom: 1px solid #dddddd;
+    padding: 12px 15px;
+  }
+  
+  
+  /* Estilo para las filas impares de la tabla de puntuaciones */
+  .tabla-puntuaciones tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+  }
+  
+  
+  iframe {
+    display: none;
+  }
+
+  button {
+    display: inline-block;
+    padding: 3px 10px; /* Reducción del relleno para hacerlos más finos */
+    margin: 6px 2px; /* Margen alrededor de los botones */
+    border: 1px solid #000; /* Borde sutil */
+    border-radius: 3px; /* Esquinas ligeramente redondeadas para un aspecto más suave */
+    background-color: #6272a4; /* Color de fondo */
+    color: #f8f8f2; /* Color de texto */
+    font-family: 'Arial', sans-serif; /* Tipografía */
+    font-size: 14px; /* Tamaño de fuente ligeramente más pequeño */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+  }
+  
+  #musicajuego {
+    position: absolute; /* Posición absoluta para ubicar específicamente */
+    top: 10px; /* Espacio desde la parte superior de la página */
+    right: 10px; /* Espacio desde la parte derecha de la página */
+  }

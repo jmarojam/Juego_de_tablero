@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/DAW216.css">
+    <script src="/script/DAW216.js"></script>
+    <title>Lara Croft- Tomb Raider</title>
+</head>
+<body>
+    <div id="musicajuego">
+        <button id="play" onclick="sonarMusica()">▶️</button>
+        <button id="stop" onclick="callarmusica()">⏯️</button>
+        <iframe src="audio/Tomb Raider III Soundtrack - 01 - Theme.mp3" controls>
+        </iframe> 
+    </div>
+    <div id="introducir_nombre">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <button onclick="setName()">Introducir Nombre</button>
+    </div>
+    <div id="tirar_dado" style="display:none">
+        <button onclick="tirar_dado()">Tirar dado</button>
+        <img id="imagen_dado" src="/img/dado_1.png" width="50" height="50">
+        <p>Tiradas: <span id="tiradas">0</span></p>
+    </div>
+    <div id="mensaje_nombre"></div>
+    <div>
+        <button onclick="jugar()" id="jugar" disabled>Jugar</button>
+    </div>
+    <div id="tabla_juego"></div>
+
+    <div id="tabla_ganadores"></div>
+
+</body>
+</html>
